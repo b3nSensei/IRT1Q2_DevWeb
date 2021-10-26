@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../style.css"/>
+		<title>Les logiciel - Stéganographie</title>
+		<meta name="description" content="Les logiciels permettant de faire le stéganographie">
+		<link rel="shortcut icon" href="../images/logo.ico" type="image/x-icon"/> 
+ 		<link rel="icon" href="../images/logo.ico" type="image/x-icon"/>
+	</head>
+	<body>
+		<header>
+			<a href="../egg.html"><img src="../images/logo.jpg" alt="Logo" id="logo"/></a>
+			<a href="../index.html"><h1>La<br />Stéganographie</h1></a>
+		</header>
+		<main>
+			<nav>
+				<ul>
+					<a href="../index.html" alt="Accueil"><li>Accueil</li></a>
+					<a href="../definition.html" alt="définition"><li>Définition</li></a>
+					<a href="../histoire.html" alt="Histoire"><li>Histoire</li></a>
+					<a href="tuto.html" alt="Tutoriel">
+					<li>Tutoriel</a>
+						<ul>
+							<a href="soft.html" alt="Tutoriel via logiciel"><li>Logiciel</li></a>
+							<a href="cli.html" alt="Tutoriel en ligne de commandes"><li>Ligne de Commandes</li></a>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<section>
+				<article>
+					<h2>LOGICIEL</h2>
+					<h3>OpenStego</h3>
+					<p>OpenStego permet la dissimulation de données ainsi que le watermarking.</p>
+					<p>En utilisant OpenStego, vous pourrez faire de la stéganographie sur tout type d'images (JPEG, JPG, BMP, GIF, PNG etc) et en récupérer un PNG à la sortie.</p>
+					<p>Ce logiciel open source et complétement gratuit est développé en Java, il nécessite donc que ce dernier soit installé pour fonctionner.</p>
+					<figure><img src="../images/os.png" alt="OpenStego"><figcaption>Choisissez votre secret avec l'option "Message File" et le conteneur avec "Cover File".
+					</figcaption></figure>
+					<p>Remplissez chaque champ avec les informations voulues:</p>
+							<p>"Message File" correspond au fichier que vous voulez dissimuler</p>
+							<p>"Cover File" correspond à votre fichier conteneur</p>
+							<p>"Output Stego File" correspond au nom et chemin de votre fichier combiné</p>
+					<p>Validez vos choix avec le boutton "Hide Data" et... Voila!</p>
+					<figure><img src="../images/secret.png" alt="Image stéganographié"><figcaption>Un fichier secret se cache dans cette image de manière indétectable.</figcaption></figure>
+					<p>Pour récupérer un message secret d'un fichier, choisissez d'abord l'option "Extract Data" dans les options de gauche.</p>
+					<p>Choisissez ensuite le fichier contenant le message secret ainsi que le chemin où OpenStego devra enregistrer le résultat de l'extraction.</p>
+					<p>Vous voila désormais en possesion du contenu secret caché dans l'image que vous aviez séléctionnée!</p>
+				</article>
+			</section>
+			<footer>
+				<a href="infos.html">Créé par Benjamin Pittonet - Etudiant IRT1</a>
+			</footer>
+		</main>
+	</body>	
+</html>

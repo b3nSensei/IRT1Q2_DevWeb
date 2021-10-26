@@ -1,0 +1,295 @@
+@font-face
+{
+	font-family: "kad";
+	src: url('font/kandinsky.ttf');
+}
+@font-face
+{
+	font-family: "ccode";
+	src: url('font/CrackedCode.ttf');
+}
+
+html
+{
+	font-family: serif;
+	background-image: url("images/background.jpg");
+	background-attachment: fixed;
+	background-size: 1920px 1080px;
+}
+
+body
+{
+	width: 1500px;
+	margin: 0 auto;
+}
+
+header
+{
+	background: #444444 url('images/top_back.jpg') no-repeat center;
+	font-size: 30px;
+	width: 1200px;
+	border-radius: 20px;
+	height: 337px;
+	padding: 0 0 0 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#logo
+{
+	height: 337px;
+	filter: blur(7px);
+	border-radius: 80%;
+	position: relative;
+	margin-left: 495px;
+}
+#logo:hover
+{
+	filter: blur(0);
+}
+
+header h1
+{
+	font-size: 55px;
+	font-family: kad;
+	float: left;
+	color: #ebe8ff;
+	position: absolute;
+	margin-top: -150px;
+	margin-left: 20px;
+	text-shadow: 3px 3px 5px blue, 0 0 2em black, 0 0 0.8em red;
+}
+
+main
+{
+	width: 1100px;
+	margin:0 auto;
+	background-color: rgba(10,10,10, 0.8);
+	border-radius: 10px;
+}
+
+nav
+{
+	width: 250px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 17px;
+	height: auto;
+	background-color: rgba(15,15,15,0.6);
+	z-index: 5;
+	border-radius: 10px;
+	border: groove 2px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #ebe8ff;
+	text-shadow: 3px 3px 5px blue, 0 0 1em black, 0 0 0.8em black;
+}
+
+nav a
+{
+	text-decoration: none;
+	font-size: 40px;
+	display: block;
+	text-shadow: 3px 3px 5px blue, 0 0 1em black, 0 0 0.8em black;
+}
+
+nav ul
+{
+	list-style: none;
+	text-align: left;
+	position: relative;
+	margin: 5px;
+	padding: 5px;
+	font-size: 36px;
+}
+
+li ul
+{
+	border-radius: 10px;
+	display: none;
+	width: 0px;
+	list-style-type: none; 
+	position: relative;
+	margin: 10px;
+	padding: 10px;
+	transition-property: width;
+    transition-duration: 2s;
+}
+li:hover ul
+{
+	width: 400px;
+	display: block;
+	text-align: left;
+	position: absolute;
+	margin: auto;
+	margin-top: -20px;
+	margin-left: 130px;
+	background-color: rgba(15, 15, 15, 0.6);
+	font-size: 30px;
+	z-index: 6
+}
+
+nav a:hover
+{
+	background-color: gray;
+}
+
+section
+{
+	margin-left: 15px;
+	width: 800px;
+	float: left;
+	margin-top: 10px;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+
+article
+{
+	margin-top: 5px;
+	margin: 8px 5px 0 5px;
+	border: groove 2px;
+	border-radius: 10px;
+	position: relative;
+	background-color: rgba(20,20,20,0.6);
+}
+
+h2
+{
+	text-decoration: none;
+	color: #ebe8ff;
+	display: block;
+	border-bottom: groove 2px #666;
+	text-align: center;
+	font-size: 30px;
+	font-family: ccode;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: gray;
+	border-radius: 8px;
+	text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.5em black;
+
+}
+
+article p
+{
+	margin-left: 20px;
+	margin-right: 10px;
+	z-index: 0;
+	text-align: justify-all;
+	font-family: serif;
+	font-size: 24px;
+	color: #ebe8ff;
+}
+
+article p .quote
+{
+	display: block;
+	font-style: italic;
+	text-align: center;
+	font-size: 20px;
+	color: #dd5ddd;
+}
+
+.egga, .eggb, .eggs
+{
+	background-color: rgba(20,20,20,0.0); 
+}
+
+article figure img
+{
+	width: 90%;
+	margin: 0 auto;
+}
+
+article figure img
+{
+	width: 100%;
+}
+
+figure figcaption
+{
+	text-align: center;
+	color: #ebe8ff;
+}
+.wireframe
+{
+	width: 98%;
+	border: solid 2px;
+	margin-left: 1%;
+}
+
+article .wireframe
+{
+	background-color: rgba(0, 0, 0, 1);
+}
+
+.tuto
+{
+	display: flex;
+	width: 100%;
+	margin:0 auto;
+}
+
+.tutocap
+{
+	font-family: ccode;
+}
+
+.eggb
+{
+	background-color: rgba(255,255,255,0.0); 
+}
+.eggm
+{
+	background-color: rgba(255,255,255,0.0); 
+}
+.eggs
+{
+	background-color: rgba(255,255,255,0.0); 
+}
+.egga
+{
+	background-color: rgba(255,255,255,0.0); 
+}
+
+.eggg
+{
+	display: flex;
+	float: center;
+	width: 131px;
+	height: 237px;
+	margin-left: 279px;
+}
+
+h3
+{
+	font-style: bold italic;
+	font-size: 35px;
+	margin-left: 10px;
+	color: #ebe8ff;
+	text-shadow: 3px 3px 5px blue, 0 0 2em black, 0 0 0.8em blue;
+}
+
+footer
+{
+	background-color: gray;
+	clear: both;
+	text-align: center;
+	color: #ebe8ff;
+	font-family: serif;
+	font-size: 25px;
+	width: 1200px;
+	border-radius: 5px;
+	padding: 0 0 0 0;
+	margin-left: -50px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.5em black;
+}
